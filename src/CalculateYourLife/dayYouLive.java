@@ -29,7 +29,7 @@ public class dayYouLive {
 	now.setTime(now.getTime()+time*60*1000*60*24);
 	long time2 = now.getTime()+time*60*1000*60*24;
 	System.out.println("10000天纪念日是"+a.format(now));
-	System.out.println(time2);
+	//System.out.println(time2);
 	System.out.println(date.getTime());
 	long a2 =10000l*1000*60*60*24; //结果居然是这个711573504
 	System.out.println(a2);   // 因为超过了int 表示的数目了
